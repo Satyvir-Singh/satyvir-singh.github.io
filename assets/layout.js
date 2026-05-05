@@ -9,6 +9,7 @@
     { id: "experience", label: "Experience", href: "experience.html" },
     { id: "publications", label: "Publications", href: "publications.html" },
     { id: "teaching", label: "Teaching", href: "teaching.html" },
+    { id: "skills", label: "Skills", href: "skills.html" },
     { id: "contact", label: "Contact", href: "contact.html" },
   ];
 
