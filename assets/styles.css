@@ -214,10 +214,9 @@ p { margin: 0 0 1em; color: var(--text-soft); }
   width: 220px;
   height: 220px;
   border-radius: 50%;
-  background:
-    linear-gradient(135deg, var(--accent), var(--accent-2));
-  display: grid;
-  place-items: center;
+  object-fit: cover;
+  display: block;
+  background: linear-gradient(135deg, var(--accent), var(--accent-2));
   color: white;
   font-family: var(--serif);
   font-size: 4.5rem;
@@ -226,6 +225,8 @@ p { margin: 0 0 1em; color: var(--text-soft); }
   border: 4px solid var(--bg);
   margin: 0 auto;
   letter-spacing: -0.02em;
+  outline: 2px solid var(--border);
+  outline-offset: -4px;
 }
 
 .hero h1 { margin: 0 0 6px; }
