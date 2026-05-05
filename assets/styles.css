@@ -673,5 +673,36 @@ footer a:hover { color: var(--accent); }
 }
 .fade-in.visible { opacity: 1; transform: none; }
 
+/* ============ PAGE HEADER (subpages) ============ */
+.page-header {
+  padding: 56px 0 32px;
+  background:
+    radial-gradient(800px 320px at 12% 0%, rgba(11, 92, 171, 0.08), transparent 60%),
+    radial-gradient(700px 320px at 95% 30%, rgba(26, 138, 153, 0.07), transparent 60%);
+  border-bottom: 1px solid var(--border);
+}
+.page-header .crumb {
+  font-family: var(--mono);
+  font-size: 0.8rem;
+  color: var(--accent);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 8px;
+}
+.page-header h1 {
+  font-size: clamp(1.8rem, 3.5vw, 2.5rem);
+  margin: 0 0 8px;
+}
+.page-header p.lede {
+  font-size: 1.05rem;
+  color: var(--text-soft);
+  max-width: 720px;
+  margin: 0;
+}
+
 /* ============ UTIL ============ */
 .icon-svg { width: 1em; height: 1em; vertical-align: -0.12em; fill: currentColor; }
+.prose { max-width: 760px; }
+.prose p { font-size: 1.02rem; }
+.prose strong { color: var(--text); }
+

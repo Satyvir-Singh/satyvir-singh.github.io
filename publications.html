@@ -13,34 +13,26 @@
   <link rel="stylesheet" href="assets/styles.css" />
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='45' fill='%230b5cab'/><text x='50%25' y='55%25' text-anchor='middle' dominant-baseline='middle' fill='white' font-family='Georgia' font-size='52' font-weight='600'>S</text></svg>" />
 </head>
-<body>
+<body data-page="publications">
 
-<nav class="nav">
-  <div class="nav-inner">
-    <a href="index.html" class="brand">Satyvir Singh<span class="dot">.</span></a>
-    <div class="nav-links" id="nav-links">
-      <a href="index.html#about">About</a>
-      <a href="index.html#research">Research</a>
-      <a href="index.html#news">News</a>
-      <a href="index.html#experience">Experience</a>
-      <a href="publications.html" class="active">Publications</a>
-      <a href="index.html#teaching">Teaching</a>
-      <a href="index.html#contact">Contact</a>
-      <button class="theme-btn" id="theme-btn" aria-label="Toggle theme"></button>
-    </div>
-    <button class="menu-btn" id="menu-btn" aria-label="Menu">☰</button>
+<div id="site-nav"></div>
+
+<header class="page-header">
+  <div class="container">
+    <div class="crumb">Publications</div>
+    <h1>Publications</h1>
+    <p class="lede">Complete list of peer-reviewed journal papers, edited books, book chapters and conference proceedings.</p>
   </div>
-</nav>
+</header>
 
-<section class="section" style="padding-top:40px;">
+<section class="section" style="padding-top:24px;">
   <div class="container">
     <div class="section-head">
-      <h2>Publications</h2>
+      <h2>All Works</h2>
       <a class="more" href="CV_Satyvir_Singh.pdf" target="_blank">Download Full CV ↗</a>
     </div>
 
     <p style="color:var(--text-soft);max-width:780px;">
-      Selected and complete list of peer-reviewed papers, edited books, book chapters and conference proceedings.
       Use the search bar to filter by keyword, author or journal, and the buttons to filter by type.
       For bibliographic exports, please contact me by email.
     </p>
@@ -60,13 +52,9 @@
   </div>
 </section>
 
-<footer>
-  <div class="container">
-    © <span id="year">2026</span> Dr. Satyvir Singh ·
-    <a href="index.html">Home</a>
-  </div>
-</footer>
+<div id="site-footer"></div>
 
+<script src="assets/layout.js"></script>
 <script src="assets/main.js"></script>
 <script src="assets/publications.js"></script>
 </body>
